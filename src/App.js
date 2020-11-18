@@ -1,5 +1,7 @@
 
 import './App.css';
+import Hello from './today/Hello.js'
+import Goodbye from './today/Goodbye.js'
 
 function App() {
   var logo = "4a2d87de1951.jpg"
@@ -12,9 +14,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Hello />
         <p>
-          {text} <br/>
-          <span className="num">{number}</span>
+          {text}
         </p>
         <a
           className="App-link"
@@ -24,6 +26,7 @@ function App() {
         >
           생각하러 가기🤔
         </a>
+        <Goodbye />
       </header>
     </div>
   );
