@@ -1,21 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
+  var logo = "4a2d87de1951.jpg"
+  var text = "¿🙃"
+  var number = (100 + 30) * 7 / 6
+
+  
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {text} <br/>
+          <span className="num">{number}</span>
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://naver.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          생각하러 가기🤔
         </a>
       </header>
     </div>
